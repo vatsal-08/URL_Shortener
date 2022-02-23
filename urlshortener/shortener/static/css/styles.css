@@ -1,0 +1,22 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+form h1 {
+  text-align: center;
+}
+#centeringDiv {
+  height: 100%;
+  width: 30%;  
+  margin: auto; 
+  padding-top: 10%; 
+}
+#mainForm {
+  margin: auto;
+  border: 10px solid red;
+} 
