@@ -1,22 +1,30 @@
 * {
   font-family: "Oswald", sans-serif;
+  color: white;
 }
 html,
 body {
   height: 100%;
   width: 100%;
   margin: 0;
+  background: url("/static/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+
 form h1 {
   text-align: center;
 }
 #centeringDiv {
   height: 100%;
-  width: 30%;  
-  margin: auto; 
-  padding-top: 10%; 
+  width: 30%;
+  margin: auto;
+  padding-top: 10%;
 }
 #mainForm {
   margin: auto;
-  border: 10px solid red;
-} 
+  border: 10px solid rgb(164, 164, 171);
+}
+#myInput {
+  color: black;
+}
